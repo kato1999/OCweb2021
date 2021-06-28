@@ -66,8 +66,8 @@
 
 /* 豊講部分のデザイン */
 .jumbotron {
-	margin-top: 5px;
-	background-image: url('../img/Top.png');
+	margin: 10px;
+	background-image: url('../img/SC2021.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
