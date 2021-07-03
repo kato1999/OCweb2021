@@ -112,6 +112,29 @@
 	margin-top: 30px;
 }
 
+.book-box {
+	max-width: 90%;
+}
+
+.book-box div {
+	display: inline-block;
+}
+
+.book-box p {
+	margin: 5pt 0pt 30pt 0pt;
+}
+
+.school {
+	font-weight: bold;
+	font-size: x-large;
+	padding-right: 5%;
+}
+
+.comment {
+	font-size: large;
+	font-weight: 500;
+}
+
 
 
 
