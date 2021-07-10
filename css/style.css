@@ -102,6 +102,15 @@
 	padding: 0 0 0 10px;
 }
 
+/* トップページコンテンツ画像 */
+.ContentsImgContainerTop {
+	text-align: center;
+}
+
+.ContentsImgContainerTop img {
+	height: 75%;
+}
+
 /* 冊子ページ */
 .book-p {
 	margin-bottom: 40px;
