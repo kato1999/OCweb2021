@@ -106,7 +106,6 @@
 .ContentsImgContainerTop {
 	text-align: center;
 }
-
 .ContentsImgContainerTop img {
 	height: 75%;
 }
@@ -239,6 +238,10 @@ footer {
 	
 	.nav-item + .nav-item {
 		border-left:none;
+	}
+
+	.meddyWondering {
+		margin-left: 40px;
 	}
 } /* END */
 
