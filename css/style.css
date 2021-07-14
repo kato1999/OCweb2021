@@ -239,10 +239,6 @@ footer {
 	.nav-item + .nav-item {
 		border-left:none;
 	}
-
-	.meddyWondering {
-		margin-left: 40px;
-	}
 } /* END */
 
 /* 中デバイス（タブレット, 768px 未満）
