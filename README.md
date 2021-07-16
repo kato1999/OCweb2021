@@ -1,19 +1,16 @@
 # OCWeb_2021
-Open Campus Web 2021
-
+## Open Campus Web 2021 Overview
 This is a repository for Open Campus Web 2021 produced by Student Committee of Nagoya University.
-
 Note that default branch name is "main", not "master".
-
 This repository was created on Jun 19th, 2021. Codes were copied from OCWeb_2020.
 
-＜分担＞
+## 分担
 
-1. 資料室
+### 1. 資料室
 ・トップ (information-top.html) 吉田
 
-2.1 冊子 
-・トップ　(book-top.html)  吉田
+### 1.1 冊子 
+・トップ (book-top.html)  吉田
 
 ・名大生の1年 (book-year.html)  吉田
 
@@ -28,7 +25,7 @@ This repository was created on Jun 19th, 2021. Codes were copied from OCWeb_2020
 ・名大生のその先へ (book-feature.html)　坂本
 
 
-2.2 情報の宝庫
+### 1.2 情報の宝庫
 
 ・トップ (tip-top.html) 吉田
 
@@ -39,6 +36,17 @@ This repository was created on Jun 19th, 2021. Codes were copied from OCWeb_2020
 ・学内店舗情報 (tip-shop.html) 加田
 
 
-3.3 Information Center
+### 1.3 Information Center
 
 ・Information Center (information-center.html) 吉田
+
+### 1.4 リアルスコープ
+未定
+
+
+## 2. 質問コーナー　　吉田
+・トップ (question-top.html)
+
+・質問募集ページ (question.html)
+
+・回答ページ (answer.html)
