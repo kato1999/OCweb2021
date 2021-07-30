@@ -149,8 +149,6 @@
 	color: red;
 }
 
-
-
 /* リンク部分のデザイン */
 .card a{
 	color: rgb(10, 10, 10);
@@ -244,6 +242,10 @@ footer {
 	.nav-item + .nav-item {
 		border-left:none;
 	}
+
+	.quizBottunImg {
+		width: 80%;
+	}
 } /* END */
 
 /* 中デバイス（タブレット, 768px 未満）
@@ -263,6 +265,9 @@ footer {
 	table th:first-child {
 		width: 25%;
 	}
+	.quizBottunImg {
+		width: 80%;
+	}
 } /* END */
 
 /* 小デバイス（縦向きモバイル, 576px 以上 デスクトップ, 992px 未満）
@@ -272,10 +277,16 @@ footer {
 		text-align: center;
 		height: 50px;
 	}
+
+	.quizBottunImg {
+		width: 80%;
+	}
 } /* END */
 
 /* 小デバイス（縦向きモバイル, 576px 以上）
 ============================================== */
 @media screen and (min-width: 576px) {
-	
+	.quizBottunImg {
+		width:50%
+	}
 } /* END */
