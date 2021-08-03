@@ -25,32 +25,22 @@
 <body data-spy="scroll" data-taget="#navbar">
     <!-- メニュー -->
     <div class="navbar-box bg-success sticky-top">
-    <div class="bg-success container ">
-        <nav class="navbar navbar-expand-md navbar-dark bg-success">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav text-md-center nav-justified w-100">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">トップ</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link no_link" href="./content/tour.html">ツアー (準備中)</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="./content/talk/talk.html">対談</a></li>
-                    <li class="nav-item"><a class="nav-link no_link" href="#">質問コーナー (準備中)</a></li>
-                    <li class="nav-item"><a class="nav-link no_link" href="#">クイズ (準備中)</a></li>
-                    <li class="nav-item"><a class="nav-link no_link" href="#">資料室 (準備中)</a></li>
-                    <!--<li class="nav-item">
-                        <details>
-                            <summary class="nav-link">資料室</summary>
-                            <div class="detail_content">
-                                <p><a tabindex="-1">資料室　トップ</a></p>
-                            </div>
-                        </details>
-                    </li>-->
-                </ul>
-            </div>
-        </nav>
-    </div>		
+        <div class="bg-success container ">
+            <nav class="navbar navbar-expand-md navbar-dark bg-success">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav text-md-center nav-justified w-100">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">トップ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./content/talk/talk.html">対談</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./content/question/question-top.html">質問コーナー</a></li>
+                        <li class="nav-item"><a class="nav-link no_link" href="#">クイズ (準備中)</a></li>
+                        <li class="nav-item"><a class="nav-link no_link" href="#">資料室 (準備中)</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>		
     </div>
 
     <!-- トップ画像 -->
@@ -61,11 +51,9 @@
                 <h1 class="display-4 mx-auto text-center title">学生企画</h1>
                 <h3 class="mx-auto text-center mt-3 date">オンライン開催 </h3>
                 <h3 class="mx-auto text-center mt-3 date">Date：8/10,11,12 </h3>
-                <!-- <h3 class="mx-auto text-center mt-3 cont">Content：ツアー・対談・資料(必要?)</h3> -->
             </div>
         </div>
     </div>
-
 
     <!-- 学生企画説明 -->
     <section class="container py-5" id="sec1">
@@ -79,10 +67,7 @@
         是非以下のコンテンツをのぞいてみてください♪
         </p>
     </section>
-
     <hr class="my-0">
-
-  
 
     <!-- 企画へのリンク -->
     <section class="py-5 bg-light" id="sec2">
@@ -98,10 +83,10 @@
                             <div class="caution pb-3 px-3">※写真は一昨年の様子です。今年はオンラインでの開催となります。</div>
                             <div class="card-body pt-0">
                                 <h3 class="mb-0">対談</h3>
-                                <p class="card-text">
-                                    Zoomを使用し、現役名大生と直接お話ができます！受験勉強や大学生活について気になる点や質問を聞いてみましょう♪<br>
-                                    <span class="situation">現在予約を受け付けています！</span>
+                                <p class="card-text mb-1">
+                                    Zoomを使用し、現役名大生と直接お話ができます！受験勉強や大学生活について気になる点や質問を聞いてみましょう♪
                                 </p>
+                                <span class="situation">現在予約を受け付けています！</span>
                             </div>
                         </a>
                     </div>
@@ -109,14 +94,14 @@
 
                 <div class="col-md-6 col-lg-6">
                     <div class="mb-3 card shadow-sm">
-                        <a tabindex="-1">
-                        <div class="pt-3 px-3 pb-5"> <img src="img/MeddyWondering.jpg" alt="質問コーナー" class="meddyWondering"></div>
+                        <a href="content/question/question-top.html" tabindex="-1">
+                        <div class="pt-5 px-3 pb-5"> <img src="img/MeddyWondering.jpg" alt="質問コーナー" class="meddyWondering"></div>
                         <div class="card-body pt-0">
                             <h3 class="mb-0">質問コーナー</h3>
-                            <p class="card-text">
-                                皆さんから寄せられたご質問にお答えします☆質問フォームに書くだけなのでぜひお気軽にご参加ください！<br>
-                                <span class="situation">(※現在、コンテンツの準備中です。)</span>
+                            <p class="card-text mb-1">
+                                皆さんから寄せられたご質問にお答えします☆質問フォームに書くだけなのでぜひお気軽にご参加ください！
                             </p>
+                            <span class="situation">現在質問を受け付けています！</span>
                         </div>
                         </a>
                     </div>
@@ -155,38 +140,46 @@
             </div>
         </div><!--/.container-->
     </section>
+    <hr class="my-0">
 
+    <section class="container py-5" id="sec1">
+        <h2 class="heading d-inline-block mr-2 mb-3">参加者アンケート</h2>
+        <p class="text-secondary mb-1">Open CAMPUS 2021 学生企画のコンテンツに関するアンケートを実施しています。</p>
+        <p class="text-secondary"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf3_KZz9_bKDLOJ6gnH-Ch9FSZDg1UHGexfUuPWLWyaFW0QKQ/viewform?usp=sf_link" target="brank">こちら</a>から回答をお願いします。</p>
+    </section>
     <hr class="my-0">
 
     <!-- About us -->
-    <section class="container py-5" id="sec1">
-        <div class="mb-3">
-            <h2 class="heading d-inline-block mr-2">学生委員会紹介</h2>
-        </div>
-        <p class="text-secondary">
-            名古屋大学 OPEN CAMPUS 2021 学生企画は名古屋大学生協学生委員会が企画・運営を行っています！
-            その他、新入生歓迎企画や学内広報誌作成など名大生の暮らしをより良くするために幅広く活動しています。
-            詳しくは<a href="https://sc.coop.nagoya-u.ac.jp/" target="brank" >公式ホームページ</a>をご覧ください。
-        </p>
+    <section class="bg-light py-5" id="sec2">
+        <div class="container">
+            <div class="mb-3">
+                <h2 class="heading d-inline-block mr-2">学生委員会紹介</h2>
+            </div>
+            <p class="text-secondary">
+                名古屋大学 OPEN CAMPUS 2021 学生企画は名古屋大学生協学生委員会が企画・運営を行っています！
+                その他、新入生歓迎企画や学内広報誌作成など名大生の暮らしをより良くするために幅広く活動しています。
+                詳しくは<a href="https://sc.coop.nagoya-u.ac.jp/" target="brank" >公式ホームページ</a>をご覧ください。
+            </p>
 
+            
+            <p class="text-secondary">公式twitterもチェックしてくださいね☆</p>
+
+            <div class="twitter">
+                <center>
+                <a class="twitter-timeline" data-lang="ja" data-width="320" data-height="350" data-theme="light"
+                href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw">Tweets by meddy_club</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <br>
+                <a href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                data-show-count="false">Follow @meddy_club</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         
-        <p class="text-secondary">公式twitterもチェックしてくださいね☆</p>
-
-        <div class="twitter">
-            <center>
-            <a class="twitter-timeline" data-lang="ja" data-width="320" data-height="350" data-theme="light"
-              href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw">Tweets by meddy_club</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <br>
-            <a href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-              data-show-count="false">Follow @meddy_club</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
-            <a href="https://twitter.com/intent/tweet?screen_name=meddy_club&ref_src=twsrc%5Etfw"
-              class="twitter-mention-button" data-show-count="false">
-              Tweet to @meddy_club</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </center>
+                <a href="https://twitter.com/intent/tweet?screen_name=meddy_club&ref_src=twsrc%5Etfw"
+                class="twitter-mention-button" data-show-count="false">
+                Tweet to @meddy_club</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </center>
+            </div>
         </div>
     </section>
 
