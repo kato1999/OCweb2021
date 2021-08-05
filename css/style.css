@@ -218,7 +218,7 @@ footer {
 
 
 
-/* 大デバイス（デスクトップ, 768px 以上）
+/* 小デバイス（デスクトップ, 768px 以上）
 ============================================== */
 @media screen and (min-width: 767.98px) {
 	details{
@@ -246,9 +246,18 @@ footer {
 	.quizBottunImg {
 		width: 80%;
 	}
+	/* トップページ生協バナー部分 */
+	.coopInfo {
+		display: flex;
+		padding: 0 50px;
+	}
+	
+	.coopInfo a {
+		flex-basis: 50%;
+	}
 } /* END */
 
-/* 中デバイス（タブレット, 768px 未満）
+/* 小デバイス（タブレット, 768px 未満）
 ============================================== */
 @media screen and (max-width: 767.98px) {
 	.gnav-item {
@@ -268,25 +277,50 @@ footer {
 	.quizBottunImg {
 		width: 80%;
 	}
+	/* トップページ生協バナー部分 */
+	.coopInfo {
+		text-align: center;
+	}
+	
+	.coopInfo img {
+		margin-bottom: 20px;
+	}
 } /* END */
 
-/* 小デバイス（縦向きモバイル, 576px 以上 デスクトップ, 992px 未満）
+/* 大デバイス（縦向きモバイル, 576px 以上 デスクトップ, 992px 未満）
 ============================================== */
 @media screen and (min-width: 576px) and (max-width: 991.98px) {
 	details{
 		text-align: center;
 		height: 50px;
 	}
-
 	.quizBottunImg {
 		width: 80%;
 	}
+	/* トップページ生協バナー部分 */
+	.coopInfo {
+		display: flex;
+		padding: 0 50px;
+	}
+	
+	.coopInfo a {
+		flex-basis: 50%;
+	}
 } /* END */
 
-/* 小デバイス（縦向きモバイル, 576px 以上）
+/* 大デバイス（縦向きモバイル, 576px 以上）
 ============================================== */
 @media screen and (min-width: 576px) {
 	.quizBottunImg {
 		width:50%
+	}
+	/* トップページ生協バナー部分 */
+	.coopInfo {
+		display: flex;
+		padding: 0 50px;
+	}
+
+	.coopInfo a {
+		flex-basis: 50%;
 	}
 } /* END */
