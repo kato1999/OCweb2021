@@ -320,6 +320,12 @@ footer {
 		padding: 0 50px;
 	}
 
+	/* スコープ動画埋め込み部分 */
+.scope-movie {
+	height: 280px;
+	width: 500px;
+}
+
 	.coopInfo a {
 		flex-basis: 50%;
 	}
