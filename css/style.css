@@ -255,6 +255,17 @@ footer {
 	.coopInfo a {
 		flex-basis: 50%;
 	}
+
+		/* クイズ景品ページ画像 */
+		.imgContainerInPresent {
+			display: flex;
+			margin: 20px 10px;
+			text-align: center;
+		}
+	
+		.imgBox {
+			flex-basis: 30%;
+		}
 } /* END */
 
 /* 小デバイス（タブレット, 768px 未満）
@@ -285,6 +296,16 @@ footer {
 	.coopInfo img {
 		margin-bottom: 20px;
 	}
+
+	/* クイズ景品ページ画像 */
+	.imgContainerInPresent {
+		text-align: center;
+	}
+
+	.imgBox {
+		flex-basis: 30%;
+		margin-top: 30px;;
+	}
 } /* END */
 
 /* 大デバイス（縦向きモバイル, 576px 以上 デスクトップ, 992px 未満）
@@ -305,6 +326,25 @@ footer {
 	
 	.coopInfo a {
 		flex-basis: 50%;
+	}
+
+	/* クイズ景品ページ画像 */
+	.imgContainerInPresent {
+		display: flex;
+	}
+
+	.imgBox {
+		flex-basis: 30%;
+	}
+
+	/* クイズ景品ページ画像 */
+	.imgContainerInPresent {
+		text-align: center;
+	}
+
+	.imgBox {
+		flex-basis: 30%;
+		margin-top: 30px;
 	}
 } /* END */
 
@@ -328,5 +368,15 @@ footer {
 
 	.coopInfo a {
 		flex-basis: 50%;
+	}
+
+	/* クイズ景品ページ画像 */
+	.imgContainerInPresent {
+		text-align: center;
+	}
+
+	.imgBox {
+		flex-basis: 30%;
+		margin-top: 30px;
 	}
 } /* END */
